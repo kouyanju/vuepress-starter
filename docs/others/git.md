@@ -1,4 +1,4 @@
-## git常用命令
+## 一、git常用命令
 #### git clone
 `git clone xxxx.git  `从github或者gitlab拉取项目代码
 #### git config
@@ -39,11 +39,7 @@ build/
 
 
 
-
-
-
-
-## 绑定SSH key
+## 二、绑定SSH key
 ssh key是一种github提供的通信方式，使用ssh key 可以部署入密码就访问github
 
 检查ssh key是否存在
@@ -59,4 +55,13 @@ ssh-keygen -t rsa -C "your_email@example.com"
 # generating public/private rsa key.
 # 一直按enter
 ```
+然后找到.ssh/id_rsa.pub文件查看内容
+```
+cd ~/.ssh
+cat id_rsa.pub
+```
+从ssh-rsa 开始复制，复制到最后，一定要复制全了
 
+![ssh-rsa.png](docs/.vuepress/public/assets/img/ssh-rsa.png)
+
+然后打开github 右上角头像--》Settings--》SSH and GPG keys--》(起一个辨识度高的名字，然后把刚才复制的key粘贴进去)New SSH key

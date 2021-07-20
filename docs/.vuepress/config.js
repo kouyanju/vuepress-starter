@@ -17,7 +17,8 @@ module.exports = {
       logo: '/assets/img/hero.png',
       // navbar: false,
       nav: navConf,
-      sidebar: []
+      sidebar: [],
+      sidebarDepth:2,
 
 
 
