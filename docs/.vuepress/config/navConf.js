@@ -1,44 +1,58 @@
 module.exports=[
     { text: 'Home', link: '/' },
-    { text: 'About', link:'/About'},
+    { text: 'About', link:'/about'},
     {
-      text: 'Css',
+      text: '前端基础',
       items: [
         {
-          text: '盒子模型', link: '/css/c-aaa',
+          text :'css',
+          items:[
+            {
+              text: '盒子模型', link: '/css/c-aaa',
+            },
+            {
+              text: 'position属性', link: '/css/c-bbb',
+            },
+            {
+              text: '清除浮动', link: '/css/c-ccc',
+            }
+          ]
         },
         {
-          text: 'position属性', link: '/css/c-bbb',
+          text:'Javascript',
+          items:[
+            {
+              text: '数据类型', link: '/javascript/j-aaa',
+            },
+            {
+              text: '数组', link: '/javascript/j-bbb',
+            },
+            {
+              text: '事件', link: '/javascript/j-ccc',
+            }
+          ]
         },
         {
-          text: '清除浮动', link: '/css/c-ccc',
-        }
+          text:"Vue",
+          items:[
+            {
+              text:"对vue的理解",link:'/vue/basicUnderstanding'
+            }
+          ]
+        },
+
       ]
     },
-    {
-      text:'Javascript',
-      items:[
-        {
-          text: 'j-aaa', link: '/javascript/j-aaa',
-        },
-        {
-          text: 'j-bbb', link: '/javascript/j-bbb',
-        },
-        {
-          text: 'j-ccc', link: '/javascript/j-ccc',
-        }
-      ]
-    },
-    {
-      text:"Vue",
-      items:[
-        {text:"对vue的理解",link:'/vue/basicUnderstanding'}
-      ]
-    },
+    
     {
       text : 'Others',
       items: [
-        {text : "git",link:'/others/git',}
+        {
+          text : "git",link:'/others/git',
+        },
+        {
+          text:"算法",link:'/vue/algorithm'
+        }
       ]
     },
     {
@@ -47,25 +61,4 @@ module.exports=[
         { text : "2021/7/20",link: '/essays/20210720'}
       ]
     },
-
-    // {
-    //   text: 'Posts',
-    //   items: [
-    //     {
-    //       text: 'Group1',
-    //       items: [
-    //         { text: 'Home', link: '/' },
-    //         { text: 'About', link: '/about' }
-    //       ]
-    //     },
-    //     {
-    //       text: 'Group2',
-    //       items: [
-    //         { text: 'Home', link: '/' },
-    //         { text: 'About', link: '/about'}
-    //       ]
-    //     }
-    //   ]
-    // },
-    // { text: 'Recordlife', link: 'https://google.com' },
   ]
