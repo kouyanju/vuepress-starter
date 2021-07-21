@@ -14,11 +14,13 @@ module.exports = {
     plugins:pluginsConf,
     themeConfig: {
       lastUpdated: '更新时间',
-      logo: '/assets/img/hero.png',
-      // navbar: false,
+      logo: '/assets/img/hero.png',//添加导航栏logo
+      // navbar: false,//禁用导航栏
       nav: navConf,
       sidebar: [],
-      sidebarDepth:2,
+      sidebarDepth:1,
+
+
 
 
 
