@@ -22,3 +22,4 @@ relative+fixed
 ② 定位：position：absolute/fixed；<br/>
 ③ 注意：float浮动跟position:absolute一样拥有脱离文档流的功能，但是float虽然脱离了文档流但是仍然会占据位置，其他的文本内容会按照顺序继续排列。
 
+<vssue :options="{locale:'zh'}"/>

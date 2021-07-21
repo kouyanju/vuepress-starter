@@ -10,3 +10,4 @@ border-box——IE盒模型
 #### 由内到外的组成顺序：
 content内容、padding内边距/内填充、border边框、margin外边距，其中padding、border和margin都包括上下左右（top、bottom、left、right）四个方向。
 
+<vssue :options="{locale:'zh'}"/>

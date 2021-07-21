@@ -65,3 +65,5 @@ cat id_rsa.pub
 ![ssh-rsa.png](docs/.vuepress/public/assets/img/ssh-rsa.png)
 
 然后打开github 右上角头像--》Settings--》SSH and GPG keys--》(起一个辨识度高的名字，然后把刚才复制的key粘贴进去)New SSH key
+
+<vssue :options="{locale:'zh'}"/>

@@ -58,7 +58,7 @@ module.exports=[
     {
       text : 'Essays',
       items: [
-        { text : "2021/7/20",link: '/essays/20210720'}
+        { text : "2021/7/21记录",link: '/essays/20210721记录'}
       ]
     },
   ]

@@ -45,3 +45,4 @@
 <br/>(3) ：：first-letter/：first-letter——匹配元素中文本的首字母
 <br/>(4) ：：first-line/：first-line——匹配元素中的第一行文本，这个伪元素只能用在块元素中，不能用在内联元素中。
 <br/>(5) ：：selection——匹配被用户选中或者处于高亮状态的部分，只支持：： 。
+<vssue :options="{locale:'zh'}"/>
