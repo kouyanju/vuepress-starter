@@ -13,6 +13,12 @@ actionLink: /about
 
 footer: MIT Licensed | Copyright © 2021-present kouyanju
 ---
+
+## pwa
+
+为了演示 pwa 弹窗效果的内容
+
+注意需要在本地安装vuepress yarn add -D vuepress
 <style>
 .hero>img {
     width: 200px;
