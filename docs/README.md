@@ -15,7 +15,6 @@ footer: MIT Licensed | Copyright © 2021-present kouyanju
 ---
 
 
-
 <style>
 .hero>img {
     width: 200px;
