@@ -7,8 +7,8 @@ const sidebarConf = require("./config/siderbarConf")
 
 // moment.locale('zh-cn');
 module.exports = {
-    title:'吃饭睡觉奋斗斗',
-    description:'吃饭睡觉奋斗斗的笔记',
+    title:"Glowing'blog",
+    description:"May everything you do for it have romantic results",
     head:headConf,
 
     plugins:pluginsConf,
