@@ -15,7 +15,7 @@
     content="";
     clear:both;
     display:block;
-    }
+}
 ```
 <br/><2> 给父容器设置高度
 <br/><3> 利用BFC规范——父元素设置overflow：hidden/auto；
