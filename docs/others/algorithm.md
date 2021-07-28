@@ -1,1 +1,2 @@
+
 <vssue :options="{locale:'zh'}"/>

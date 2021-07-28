@@ -15,21 +15,42 @@ module.exports=[
             },
             {
               text: '清除浮动', link: '/css/c-ccc',
-            }
+            },
+            {
+              text: '块级元素、行内元素、BFC', link: '/css/块级元素和行内元素',
+            },
+            {
+              text: '布局', link: '/css/布局',
+            },
+            {
+              text: 'css选择器', link: '/css/css选择器',
+            },
+            {
+              text: 'display属性', link: '/css/display属性',
+            },
+            {
+              text: 'css动画', link: '/css/动画',
+            },
+            {
+              text: 'h5+css3新增', link: '/css/h5+css3新增',
+            },
           ]
         },
         {
           text:'Javascript',
           items:[
             {
-              text: '数据类型', link: '/javascript/j-aaa',
+              text: '数据类型', link: '/javascript/数据类型',
             },
             {
-              text: '数组', link: '/javascript/j-bbb',
+              text: '字符串、数组', link: '/javascript/数组',
             },
             {
-              text: '事件', link: '/javascript/j-ccc',
-            }
+              text: '防抖、节流', link: '/javascript/防抖节流',
+            },
+            {
+              text: '事件', link: '/javascript/事件',
+            },
           ]
         },
         {
@@ -51,8 +72,11 @@ module.exports=[
           text : "git",link:'/others/git',
         },
         {
-          text:"算法",link:'/vue/algorithm'
-        }
+          text:"算法",link:'/others/algorithm',
+        },
+        {
+          text : "vuepress搭建blog",link:'/others/vuepress搭建blog',
+        },
       ]
     },
     {
@@ -62,3 +86,5 @@ module.exports=[
       ]
     },
   ]
+
+  

@@ -3,10 +3,13 @@
 
 module.exports={
         
+        //
         //  '@vuepress/last-updated': {
-        //    transformer: (timestamp) => {
-        //      return moment(timestamp).fromNow()
-        //    }
+        //     transformer: (timestamp, lang) => {
+        //     // 不要忘了安装 moment
+        //     const moment = require('moment')
+        //     moment.locale(lang)
+        //     return moment(timestamp).fromNow()
         //  },
         '@vssue/vuepress-plugin-vssue': {
           // set `platform` rather than `api`

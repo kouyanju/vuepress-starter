@@ -3,6 +3,8 @@ home: true
 heroImage: /assets/img/touxiang.png
 actionText: About me～ →
 actionLink: /about
+
+
 # features:
 # - title: 简洁至上
 #   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
@@ -13,6 +15,7 @@ actionLink: /about
 
 footer: MIT Licensed | Copyright © 2021-present kouyanju_Glowing
 ---
+
 
 
 <style>
@@ -51,12 +54,6 @@ img:hover {
     -ms-transform: rotateZ(360deg);
     transform: scale(1.2) rotateZ(360deg);
 }
-/* .nav-link action-button {
-    border-radius : 
-} */
-
-
-
 .footer {
     position: fixed;
     bottom: 0;
