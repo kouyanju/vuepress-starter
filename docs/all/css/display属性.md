@@ -11,3 +11,4 @@
 #### ④inline-block：行内块元素。这个属性值融合了inline 和 block 的特性，即是它既是内联元素，又可以设置width和height。
 #### ⑤inherit：规定应该从父元素继承 display 属性的值。
 #### ⑥table：此元素会作为块级表格来显示(类似table)，表格前后带有换行符。
+<vssue :options="{locale:'zh'}"/>

@@ -148,3 +148,4 @@ module.exports = {
 
 
 
+<vssue :options="{locale:'zh'}"/>

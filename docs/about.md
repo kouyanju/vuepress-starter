@@ -2,8 +2,6 @@
 navbar:false
 title:"关于我"
 ---
-<time></time>
-<test-template></test-template>
 
 # About Author
 

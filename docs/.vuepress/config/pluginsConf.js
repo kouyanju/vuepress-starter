@@ -14,13 +14,14 @@ module.exports={
         '@vssue/vuepress-plugin-vssue': {
           // set `platform` rather than `api`
           platform: 'github-v4',
-    
+          // 其他的 Vssue 配置
           // all other options of Vssue are allowed
-          owner: 'kouyanju',
-          repo: 'vuepress-starter',
-          clientId: '4aa8eeefc0ec4bc07b8d',
-          clientSecret: 'Yc4a52d29518caccd084f42099a35a15b93a98205',
-          autoCreateIssue: true,
+          owner: 'kouyanju',//github账户名
+          repo: 'vuepress-blog',//github一个项目的名称
+          clientId: '4aa8eeefc0ec4bc07b8d',//注册的Client ID
+          clientSecret: 'Yc4a52d29518caccd084f42099a35a15b93a98205',//注册的Client Secret
+          autoCreateIssue: true,// 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
+
           
         },
        '@vuepress/pwa':{

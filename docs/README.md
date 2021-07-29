@@ -1,6 +1,6 @@
 ---   
 home: true
-heroImage: /assets/img/touxiang.png
+heroImage: /assets/touxiang.png
 actionText: About me～ →
 actionLink: /about
 

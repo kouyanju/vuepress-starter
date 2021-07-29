@@ -43,3 +43,4 @@
 #### ⑤outline：轮廓 
 - 可以在边框的外面在添加一层轮廓，轮廓不占文档流。
 - 去outline默认边框 —— summary{outline：none；}
+<vssue :options="{locale:'zh'}"/>

@@ -44,7 +44,7 @@ export default{
     }
 }
 </script>
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .date-info {
     float: right;
     padding-right: 30px;
